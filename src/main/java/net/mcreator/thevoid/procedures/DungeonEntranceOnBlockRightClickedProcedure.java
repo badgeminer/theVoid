@@ -35,6 +35,12 @@ public class DungeonEntranceOnBlockRightClickedProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
+			{
+				Entity _ent = entity;
+				_ent.teleportTo(0, 10, 0);
+				if (_ent instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.connection.teleport(0, 10, 0, _ent.getYRot(), _ent.getXRot());
+			}
 		} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("thevoid:the_dungeon")))) {
 			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 				ResourceKey<Level> destinationType = Level.OVERWORLD;
