@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thevoid.init.ThevoidModTabs;
 import net.mcreator.thevoid.init.ThevoidModItems;
 import net.mcreator.thevoid.init.ThevoidModBlocks;
 import net.mcreator.thevoid.init.ThevoidModBiomes;
@@ -44,7 +45,7 @@ public class ThevoidMod {
 	private static int messageID = 0;
 
 	public ThevoidMod() {
-
+		ThevoidModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ThevoidModBlocks.REGISTRY.register(bus);
 		ThevoidModItems.REGISTRY.register(bus);

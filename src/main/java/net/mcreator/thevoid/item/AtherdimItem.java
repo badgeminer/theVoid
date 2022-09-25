@@ -1,18 +1,8 @@
 
 package net.mcreator.thevoid.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.thevoid.block.AtherdimPortalBlock;
-
 public class AtherdimItem extends Item {
+
 	public AtherdimItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(64));
 	}
@@ -30,11 +20,13 @@ public class AtherdimItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
+
 			if (world.isEmptyBlock(pos) && true) {
 				AtherdimPortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
+
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}

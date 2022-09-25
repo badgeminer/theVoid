@@ -2,7 +2,7 @@
 package net.mcreator.thevoid.world.dimension;
 
 @Mod.EventBusSubscriber
-public class AtherdimDimension {
+public class TheDungeonDimension {
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class Fixers {
@@ -10,10 +10,7 @@ public class AtherdimDimension {
 		@SubscribeEvent
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
-			replaceableBlocks.add(ThevoidModBlocks.ATHERGRASS.get());
-
-			replaceableBlocks.add(ThevoidModBlocks.ATHERGRASS.get());
-			replaceableBlocks.add(ThevoidModBlocks.ATHER_STONE.get());
+			replaceableBlocks.add(Blocks.AIR);
 
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
@@ -41,7 +38,7 @@ public class AtherdimDimension {
 
 			};
 
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("thevoid:atherdim"), customEffect));
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("thevoid:the_dungeon"), customEffect));
 		}
 
 	}

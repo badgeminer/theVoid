@@ -13,6 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.biome.Biome;
 
+import net.mcreator.thevoid.world.biome.TheDungeonBiomeBiome;
 import net.mcreator.thevoid.world.biome.AtherBiome;
 import net.mcreator.thevoid.ThevoidMod;
 
@@ -20,11 +21,13 @@ import net.mcreator.thevoid.ThevoidMod;
 public class ThevoidModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, ThevoidMod.MODID);
 	public static final RegistryObject<Biome> ATHER = REGISTRY.register("ather", () -> AtherBiome.createBiome());
+	public static final RegistryObject<Biome> THE_DUNGEON_BIOME = REGISTRY.register("the_dungeon_biome", () -> TheDungeonBiomeBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			AtherBiome.init();
+			TheDungeonBiomeBiome.init();
 		});
 	}
 }

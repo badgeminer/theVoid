@@ -21,6 +21,7 @@ public class ThevoidModItems {
 	public static final RegistryObject<Item> ATHER_STONE = block(ThevoidModBlocks.ATHER_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ATHERDIM = REGISTRY.register("atherdim", () -> new AtherdimItem());
 	public static final RegistryObject<Item> ATHERGRASS = block(ThevoidModBlocks.ATHERGRASS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DUNGEON_ENTRANCE = block(ThevoidModBlocks.DUNGEON_ENTRANCE, ThevoidModTabs.TAB_THE_DUNGON_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
