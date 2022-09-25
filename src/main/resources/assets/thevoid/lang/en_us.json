@@ -1,1 +1,6 @@
-{}
+{
+  "block.thevoid.athergrass": "Athergrass",
+  "biome.thevoid.ather": "Ather",
+  "item.thevoid.atherdim": "Pure Water Bucket",
+  "block.thevoid.ather_stone": "Ather Stone"
+}

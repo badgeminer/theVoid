@@ -1,9 +1,50 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AtherStone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ather_stone"
+    },
+    {
+      "name": "Athergrass",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "athergrass"
+    },
+    {
+      "name": "Ather",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ather"
+    },
+    {
+      "name": "Atherdim",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atherdim",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.thevoid.athergrass": "Athergrass",
+      "biome.thevoid.ather": "Ather",
+      "item.thevoid.atherdim": "Pure Water Bucket",
+      "block.thevoid.ather_stone": "Ather Stone"
+    }
   },
   "foldersRoot": {
     "name": "~",

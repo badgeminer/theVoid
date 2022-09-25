@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thevoid:blocks/atherstone",
+    "up": "thevoid:blocks/atherstone",
+    "north": "thevoid:blocks/atherstone",
+    "east": "thevoid:blocks/atherstone",
+    "south": "thevoid:blocks/atherstone",
+    "west": "thevoid:blocks/atherstone",
+    "particle": "thevoid:blocks/atherstone"
+  }
+}

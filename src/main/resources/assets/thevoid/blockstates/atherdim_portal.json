@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "thevoid:block/atherdim_portal_ew"
+    },
+    "axis=x": {
+      "model": "thevoid:block/atherdim_portal_ns"
+    }
+  }
+}
