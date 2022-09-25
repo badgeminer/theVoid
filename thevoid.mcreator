@@ -7,13 +7,59 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_dungon_tab"
+    },
+    {
+      "name": "TheDungeonBiome",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dungeon_biome"
+    },
+    {
+      "name": "TheDungeon",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dungeon",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "DungeonEntrance",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_entrance"
+    },
+    {
+      "name": "DungeonEntranceOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_entrance_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabthe_dungon_tab": "The Dungon"
+      "itemGroup.tabthe_dungon_tab": "The Dungon",
+      "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
+      "block.thevoid.dungeon_entrance": "Dungeon Entrance",
+      "biome.thevoid.the_dungeon_biome": "The Dungeon"
     }
   },
   "foldersRoot": {

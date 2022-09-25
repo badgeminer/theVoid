@@ -27,6 +27,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thevoid.init.ThevoidModTabs;
+import net.mcreator.thevoid.init.ThevoidModItems;
+import net.mcreator.thevoid.init.ThevoidModBlocks;
+import net.mcreator.thevoid.init.ThevoidModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,6 +47,10 @@ public class ThevoidMod {
 	public ThevoidMod() {
 		ThevoidModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		ThevoidModBlocks.REGISTRY.register(bus);
+		ThevoidModItems.REGISTRY.register(bus);
+
+		ThevoidModBiomes.REGISTRY.register(bus);
 
 	}
 
