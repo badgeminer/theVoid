@@ -51,7 +51,7 @@ public class DungeonEntranceBlock extends Block {
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		DungeonEntranceOnBlockRightClickedProcedure.execute(entity);
+		DungeonEntranceOnBlockRightClickedProcedure.execute(world, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
