@@ -94,7 +94,16 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.thevoid.athergrass": "Athergrass",
+      "biome.thevoid.ather": "Ather",
+      "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
+      "itemGroup.tabthe_dungon_tab": "The Dungon",
+      "block.thevoid.dungeon_entrance": "Dungeon Entrance",
+      "item.thevoid.atherdim": "Pure Water Bucket",
+      "biome.thevoid.the_dungeon_biome": "The Dungeon",
+      "block.thevoid.ather_stone": "Ather Stone"
+    }
   },
   "foldersRoot": {
     "name": "~",
