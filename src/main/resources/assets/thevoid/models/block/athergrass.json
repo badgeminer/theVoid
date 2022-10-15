@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "thevoid:blocks/atherbottom",
-    "up": "thevoid:blocks/athertop",
-    "north": "thevoid:blocks/atherside",
-    "east": "thevoid:blocks/atherside",
-    "south": "thevoid:blocks/atherside",
-    "west": "thevoid:blocks/atherside",
-    "particle": "thevoid:blocks/atherbottom"
+    "down": "thevoid:blocks/uy",
+    "up": "thevoid:blocks/yh",
+    "north": "thevoid:blocks/uy",
+    "east": "thevoid:blocks/uy",
+    "south": "thevoid:blocks/uy",
+    "west": "thevoid:blocks/uy",
+    "particle": "thevoid:blocks/uy"
   }
 }
