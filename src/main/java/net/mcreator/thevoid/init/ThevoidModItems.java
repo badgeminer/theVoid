@@ -32,7 +32,6 @@ public class ThevoidModItems {
 	public static final RegistryObject<Item> ATHER_STONE = block(ThevoidModBlocks.ATHER_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ATHERDIM = REGISTRY.register("atherdim", () -> new AtherdimItem());
 	public static final RegistryObject<Item> ATHERGRASS = block(ThevoidModBlocks.ATHERGRASS, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> DUNGEON_ENTRANCE = block(ThevoidModBlocks.DUNGEON_ENTRANCE, ThevoidModTabs.TAB_THE_DUNGON_TAB);
 	public static final RegistryObject<Item> SHIELD_RUNE = REGISTRY.register("shield_rune", () -> new ShieldRuneItem());
 	public static final RegistryObject<Item> POWER_RUNE = REGISTRY.register("power_rune", () -> new PowerRuneItem());
 	public static final RegistryObject<Item> SHADOW_KNIGHT = REGISTRY.register("shadow_knight_spawn_egg",
