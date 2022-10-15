@@ -1,14 +1,10 @@
 {
-  "item.thevoid.shadow_knight_spawn_egg": "Shadow Knight Spawn Egg",
+  "block.thevoid.athergrass": "Athergrass",
+  "biome.thevoid.ather": "Ather",
+  "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
+  "itemGroup.tabthe_dungon_tab": "The Dungon",
   "block.thevoid.dungeon_entrance": "Dungeon Entrance",
-  "entity.thevoid.shadow_knight": "Shadow Knight",
   "item.thevoid.atherdim": "Pure Water Bucket",
   "biome.thevoid.the_dungeon_biome": "The Dungeon",
-  "block.thevoid.ather_stone": "Ather Stone",
-  "block.thevoid.athergrass": "Athergrass",
-  "itemGroup.tabthe_dungon_tab": "The Dungon",
-  "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
-  "biome.thevoid.ather": "Ather",
-  "item.thevoid.shield_rune": "Shield Rune",
-  "item.thevoid.power_rune": "Power Rune"
+  "block.thevoid.ather_stone": "Ather Stone"
 }
