@@ -39,7 +39,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "thevoid:deleted_mod_element",
+          "name": "thevoid:power_rune",
           "weight": 1,
           "functions": [
             {
