@@ -16,7 +16,9 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thevoid.item.ShieldRuneItem;
 import net.mcreator.thevoid.item.PowerRuneItem;
+import net.mcreator.thevoid.item.ManaShardItem;
 import net.mcreator.thevoid.item.AtherdimItem;
+import net.mcreator.thevoid.item.AtherStaffItem;
 import net.mcreator.thevoid.ThevoidMod;
 
 public class ThevoidModItems {
@@ -29,6 +31,8 @@ public class ThevoidModItems {
 	public static final RegistryObject<Item> POWER_RUNE = REGISTRY.register("power_rune", () -> new PowerRuneItem());
 	public static final RegistryObject<Item> SHADOW_KNIGHT = REGISTRY.register("shadow_knight_spawn_egg",
 			() -> new ForgeSpawnEggItem(ThevoidModEntities.SHADOW_KNIGHT, -16777216, -13434829, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ATHER_STAFF = REGISTRY.register("ather_staff", () -> new AtherStaffItem());
+	public static final RegistryObject<Item> MANA_SHARD = REGISTRY.register("mana_shard", () -> new ManaShardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

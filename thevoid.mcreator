@@ -129,9 +129,72 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dungeon_entrance_craft"
+    },
+    {
+      "name": "AtherStaffRightclicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ather_staff_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AtherStaff",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ather_staff"
+    },
+    {
+      "name": "ManaShard",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_shard"
+    },
+    {
+      "name": "ManaShardRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_shard_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StatsUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_ui"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "20.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -145,6 +208,8 @@
       "itemGroup.tabthe_dungon_tab": "The Dungon",
       "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
       "biome.thevoid.ather": "Ather",
+      "item.thevoid.mana_shard": "Mana Shard",
+      "item.thevoid.ather_staff": "Ather Staff",
       "item.thevoid.shield_rune": "Shield Rune",
       "item.thevoid.power_rune": "Power Rune"
     }
