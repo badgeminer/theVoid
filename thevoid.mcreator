@@ -89,6 +89,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_dungeon_biome"
+    },
+    {
+      "name": "DungeonEntranceCraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_entrance_craft"
     }
   ],
   "variable_elements": [],
