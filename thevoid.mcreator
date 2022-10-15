@@ -91,6 +91,38 @@
       "registry_name": "the_dungeon_biome"
     },
     {
+      "name": "ShieldRune",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_rune"
+    },
+    {
+      "name": "AtherRuneChest",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ather_rune_chest"
+    },
+    {
+      "name": "PowerRune",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_rune"
+    },
+    {
+      "name": "ShadowKnight",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_knight"
+    },
+    {
       "name": "DungeonEntranceCraft",
       "type": "recipe",
       "sortid": 5,
@@ -103,14 +135,18 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.thevoid.athergrass": "Athergrass",
-      "biome.thevoid.ather": "Ather",
-      "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
-      "itemGroup.tabthe_dungon_tab": "The Dungon",
+      "item.thevoid.shadow_knight_spawn_egg": "Shadow Knight Spawn Egg",
       "block.thevoid.dungeon_entrance": "Dungeon Entrance",
+      "entity.thevoid.shadow_knight": "Shadow Knight",
       "item.thevoid.atherdim": "Pure Water Bucket",
       "biome.thevoid.the_dungeon_biome": "The Dungeon",
-      "block.thevoid.ather_stone": "Ather Stone"
+      "block.thevoid.ather_stone": "Ather Stone",
+      "block.thevoid.athergrass": "Athergrass",
+      "itemGroup.tabthe_dungon_tab": "The Dungon",
+      "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
+      "biome.thevoid.ather": "Ather",
+      "item.thevoid.shield_rune": "Shield Rune",
+      "item.thevoid.power_rune": "Power Rune"
     }
   },
   "foldersRoot": {
