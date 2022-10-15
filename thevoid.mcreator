@@ -217,6 +217,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Stats",
+      "type": "keybind",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats"
     }
   ],
   "variable_elements": [
@@ -242,6 +250,7 @@
       "biome.thevoid.ather": "Ather",
       "item.thevoid.mana_shard": "Mana Shard",
       "item.thevoid.ather_staff": "Ather Staff",
+      "key.thevoid.stats": "Stats Menu",
       "item.thevoid.shield_rune": "Shield Rune",
       "item.thevoid.power_rune": "Power Rune"
     }

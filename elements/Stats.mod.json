@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Stats Menu",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "StatsOnKeyPressed"
+    }
+  }
+}
