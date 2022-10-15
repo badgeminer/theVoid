@@ -14,9 +14,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.thevoid.item.WeakManaElixirItem;
 import net.mcreator.thevoid.item.ShieldRuneItem;
+import net.mcreator.thevoid.item.PureManaElixirItem;
+import net.mcreator.thevoid.item.PowerfullManaElixirItem;
 import net.mcreator.thevoid.item.PowerRuneItem;
 import net.mcreator.thevoid.item.ManaShardItem;
+import net.mcreator.thevoid.item.ManaPowderItem;
+import net.mcreator.thevoid.item.ConsentratedManaElixirItem;
+import net.mcreator.thevoid.item.BasicManaElixirItem;
 import net.mcreator.thevoid.item.AtherdimItem;
 import net.mcreator.thevoid.item.AtherStaffItem;
 import net.mcreator.thevoid.ThevoidMod;
@@ -33,6 +39,13 @@ public class ThevoidModItems {
 			() -> new ForgeSpawnEggItem(ThevoidModEntities.SHADOW_KNIGHT, -16777216, -13434829, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> ATHER_STAFF = REGISTRY.register("ather_staff", () -> new AtherStaffItem());
 	public static final RegistryObject<Item> MANA_SHARD = REGISTRY.register("mana_shard", () -> new ManaShardItem());
+	public static final RegistryObject<Item> WEAK_MANA_ELIXIR = REGISTRY.register("weak_mana_elixir", () -> new WeakManaElixirItem());
+	public static final RegistryObject<Item> BASIC_MANA_ELIXIR = REGISTRY.register("basic_mana_elixir", () -> new BasicManaElixirItem());
+	public static final RegistryObject<Item> POWERFULL_MANA_ELIXIR = REGISTRY.register("powerfull_mana_elixir", () -> new PowerfullManaElixirItem());
+	public static final RegistryObject<Item> CONSENTRATED_MANA_ELIXIR = REGISTRY.register("consentrated_mana_elixir",
+			() -> new ConsentratedManaElixirItem());
+	public static final RegistryObject<Item> PURE_MANA_ELIXIR = REGISTRY.register("pure_mana_elixir", () -> new PureManaElixirItem());
+	public static final RegistryObject<Item> MANA_POWDER = REGISTRY.register("mana_powder", () -> new ManaPowderItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

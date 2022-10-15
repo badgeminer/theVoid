@@ -225,6 +225,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stats"
+    },
+    {
+      "name": "WeakManaElixir",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_mana_elixir"
+    },
+    {
+      "name": "BasicManaElixir",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_mana_elixir"
+    },
+    {
+      "name": "PowerfullManaElixir",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerfull_mana_elixir"
+    },
+    {
+      "name": "ConsentratedManaElixir",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consentrated_mana_elixir"
+    },
+    {
+      "name": "PureManaElixir",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_mana_elixir"
+    },
+    {
+      "name": "Puremana",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puremana"
+    },
+    {
+      "name": "ConsentrateMana",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consentrate_mana"
+    },
+    {
+      "name": "ManaPowder",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_powder"
+    },
+    {
+      "name": "PowerfullMana",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerfull_mana"
+    },
+    {
+      "name": "BasicMana",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_mana"
     }
   ],
   "variable_elements": [
@@ -239,20 +319,26 @@
   "language_map": {
     "en_us": {
       "item.thevoid.shadow_knight_spawn_egg": "Shadow Knight Spawn Egg",
+      "item.thevoid.weak_mana_elixir": "Weak Mana Elixir",
+      "item.thevoid.pure_mana_elixir": "Pure Mana Elixir",
       "block.thevoid.dungeon_entrance": "Dungeon Entrance",
       "entity.thevoid.shadow_knight": "Shadow Knight",
       "item.thevoid.atherdim": "Pure Water Bucket",
+      "item.thevoid.basic_mana_elixir": "Basic Mana Elixir",
       "biome.thevoid.the_dungeon_biome": "The Dungeon",
       "block.thevoid.ather_stone": "Ather Stone",
+      "item.thevoid.powerfull_mana_elixir": "Powerfull Mana Elixir",
       "block.thevoid.athergrass": "Athergrass",
       "itemGroup.tabthe_dungon_tab": "The Dungon",
       "item.thevoid.the_dungeon": "The Dungeon Portal Igniter",
       "biome.thevoid.ather": "Ather",
       "item.thevoid.mana_shard": "Mana Shard",
+      "item.thevoid.consentrated_mana_elixir": "Consentrated Mana Elixir",
       "item.thevoid.ather_staff": "Ather Staff",
       "key.thevoid.stats": "Stats Menu",
       "item.thevoid.shield_rune": "Shield Rune",
-      "item.thevoid.power_rune": "Power Rune"
+      "item.thevoid.power_rune": "Power Rune",
+      "item.thevoid.mana_powder": "Mana Powder"
     }
   },
   "foldersRoot": {

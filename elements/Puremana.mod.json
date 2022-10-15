@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:PowerfullManaElixir"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:ConsentratedManaElixir"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:PureManaElixir"
+    },
+    "name": "puremana",
+    "namespace": "mod"
+  }
+}
