@@ -99,14 +99,6 @@
       "registry_name": "shield_rune"
     },
     {
-      "name": "PowerRune",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_rune"
-    },
-    {
       "name": "AtherRuneChest",
       "type": "loottable",
       "sortid": 6,
@@ -115,12 +107,28 @@
       "registry_name": "ather_rune_chest"
     },
     {
+      "name": "PowerRune",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_rune"
+    },
+    {
       "name": "ShadowKnight",
       "type": "livingentity",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_knight"
+    },
+    {
+      "name": "DungeonEntranceCraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_entrance_craft"
     }
   ],
   "variable_elements": [],
